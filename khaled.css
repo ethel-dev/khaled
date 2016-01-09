@@ -1,0 +1,50 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #khaled_phrase:hover {
+        text-shadow: none !important;
+    }
+    
+    #khaled_phrase, #another_one {
+        height: 10vh;
+        height: 10%;
+    }
+    
+    #title {
+        display: none;
+    }
+    
+    #quote_area {
+        width: 100%;
+    }
+}
+
+#big-khaled, #khaled_phrase, #another_one {
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+    height: 10vh;
+    height: 10%;
+    display: inline-block;
+}
+
+#khaled_phrase, #another_one {
+    height: 50%;
+    height: 50vh;
+    text-align: center;
+    transition: text-shadow 1s;
+}
+
+#vertical {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+#another_one {
+    display: none;
+}
+
+body {
+    text-transform: uppercase;
+}

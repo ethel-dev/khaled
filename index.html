@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>khaled</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="textFit.min.js"></script>
+        <script src="khaled.js"></script>
+        <script src="script.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="khaled.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" id="vertical">
+                <div id="title" class="col-xs-4 col-sm-4 col-md-4">
+                    <span id="big-khaled">khaled</span>
+                    <p>the DJ Khaled quote generator</p>
+                    <p>made by <a href="http://soops.github.io">Ethan Arterberry</a></p>
+                    <p>dedicated to <a href="https://www.youtube.com/user/h3h3Productions">Ethan and Hila Klein</a></p>
+                </div>
+                <div id="quote_area" class="col-sm-8 col-md-8">
+                    <span id="khaled_phrase" onclick="anotherOne()">another one</span>
+                    <span id="another_one" onclick="anotherOne()">another one</span>
+                </div>
+            </div>
+        </div>
+        <audio id="another_one_sound" preload="auto">
+            <source src="sound_effect.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>
